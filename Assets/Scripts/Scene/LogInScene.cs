@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LogInScene : BaseScene
 {
+    LoginManager _loginManager = new LoginManager();
+
     protected override void Init()
     {
         base.Init();
@@ -23,9 +25,13 @@ public class LogInScene : BaseScene
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (_loginManager._isSignIn == true)
         {
-            Managers.Scene.LoadScene(Define.Scene.Game);
+
+            if (Input.GetKeyDown(KeyCode.KeypadEnter))
+            {
+                Managers.Scene.LoadScene(Define.Scene.Game);
+            }
         }
     }
 
