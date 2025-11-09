@@ -48,8 +48,6 @@ public class Spawnsite : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(0, _spawnTime));
         GameObject obj = Managers.Game.Spawn(Define.WorldObject.Monster, "Necromanser");
         NavMeshAgent nma = obj.GetOrAddComponent<NavMeshAgent>();
-        // 향후 지역(enum값)에 따른 몬스터 스폰 종류 다르게 설정, 콜라이더는 안하고 클래스 변수로 스폰 지역 설정
-
 
         Vector3 randompos;
 

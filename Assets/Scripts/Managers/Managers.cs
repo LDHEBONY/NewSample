@@ -22,7 +22,6 @@ public class Managers : MonoBehaviour
     SoundManager _sound = new SoundManager();
     PoolManager _pool = new PoolManager();
     DataManager _data = new DataManager();
-    LoginManager _login = new LoginManager();
     public static InputManager Input { get { return p_Instance._input; } } // 
     public static ResourceManager Resource {  get { return p_Instance._resource; } }
 
@@ -32,7 +31,6 @@ public class Managers : MonoBehaviour
     public static SoundManager Sound { get { return p_Instance._sound; } }
     public static UIManager UI { get { return p_Instance._ui; } }
     public static DataManager Data {get { return p_Instance._data; } }
-    public static LoginManager Login { get { return p_Instance._login; } }
     #endregion Core
 
     // Start is called before the first frame update

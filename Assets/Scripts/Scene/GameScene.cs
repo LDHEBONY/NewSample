@@ -89,11 +89,11 @@ public class GameScene : BaseScene
                     siteVector[j + 1] = temp;
                 }
             }
-            //Debug.Log("SITE: " + i + siteVector[i]);
+            Debug.Log("SITE: " + i + siteVector[i]);
         }
 
         int radius = (int)(Vector3.Distance(siteVector[0], siteVector[siteVector.Length - 1]) / 2);
-        Debug.Log("RADIUS: " + radius);
+
 
         Vector3 randDir = Random.insideUnitCircle * Random.Range(0, radius);
         randDir.y = 0;
