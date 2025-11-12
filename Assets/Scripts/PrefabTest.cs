@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PrefabTest : MonoBehaviour
-{
-    GameObject prefab;
-
-    GameObject tank;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Managers.Resource.Instatiate("Tank");
-        
-        //Managers.Resource.Destroy(tank);
-        Destroy(tank, 3.0f);
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe90c7d3514e15ee1110aa7127e26b1b04f4c327554e094d68d0b45081b6167c
+size 400

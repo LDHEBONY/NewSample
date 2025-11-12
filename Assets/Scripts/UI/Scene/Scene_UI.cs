@@ -1,12 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Scene_UI : Base_UI 
-{ 
-   public override void Init()
-    {
-        Managers.UI.SetCanvas(gameObject, false);
-    }
-  
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7599e5f3f4da17187dbb0f18b229147aca5d763ec8509fbc21089695a48b14a
+size 226

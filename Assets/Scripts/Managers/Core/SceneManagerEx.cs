@@ -1,32 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class SceneManagerEx 
-{
-    public BaseScene CurrentScene
-    {
-        get
-        {
-            return GameObject.FindObjectOfType<BaseScene>();
-        }
-    }
-
-    public void LoadScene(Define.Scene type)
-    {
-        Managers.Clear();
-        SceneManager.LoadScene(GetSceneName(type));
-    }
-
-    string GetSceneName(Define.Scene type)
-    {
-        string name = System.Enum.GetName(typeof(Define.Scene), type);
-        return name;
-    }
-
-    public void Clear()
-    {
-        CurrentScene.Clear();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f34d00c49e92a13d489258977a3195ea83c0386ba5082407c1e935c565243d2e
+size 670

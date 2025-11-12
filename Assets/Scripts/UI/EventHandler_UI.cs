@@ -1,25 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-public class EventHandler_UI : MonoBehaviour, IPointerClickHandler, IDragHandler
-{
-    public Action<PointerEventData> OnClickHandler = null;
-    public Action<PointerEventData> OnDragHandler = null;
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (OnClickHandler != null)
-            OnClickHandler.Invoke(eventData);
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        
-        //Debug.Log("OnDrag");
-        if(OnDragHandler !=null)
-            OnDragHandler.Invoke(eventData);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b309f8fee473b699f0c74bdca4b51757347e90b539f4db6c2dfb3ac6027c6cae
+size 689

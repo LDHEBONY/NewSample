@@ -1,22 +1,3 @@
-{
-  "stats": [
-    {
-      "level": 1,
-      "maxhp": 200,
-      "attack": 20,
-      "totalExp" :  0
-    },
-    {
-      "level": 2,
-      "maxhp": 250,
-      "attack": 25,
-      "totalExp": 10
-    },
-    {
-      "level": 3,
-      "maxhp": 300,
-      "attack": 30,
-      "totalExp": 20
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99f85242859f4c459f08b1673ca790701ac4b30340aa5e4ea8d77d838b50e401
+size 317

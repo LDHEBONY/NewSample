@@ -1,27 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-public static class Extension
-{
-    public static T GetOrAddComponent<T>(this GameObject go) where T : UnityEngine.Component
-    {
-
-        return Utill.GetOrAddComponent<T>(go);
-    }
-
-    public static void BindEvent(this GameObject go, Action<PointerEventData>action, Define.UIEvent type = Define.UIEvent.Click)
-    {
-        Base_UI.BindEvent(go, action, type);
-    }
-
-    public static bool IsValid(this GameObject go)
-    {
-        return go != null && go.activeSelf;
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:88ccda0bfb157ec1772f0506c822c0e38d0eeacb83f006a30290c0e86286824f
+size 694

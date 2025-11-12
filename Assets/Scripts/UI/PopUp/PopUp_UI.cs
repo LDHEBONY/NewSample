@@ -1,17 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PopUp_UI : Base_UI
-{
-   
-    public override void Init()
-    {
-        Managers.UI.SetCanvas(gameObject, true);
-    }
-
-   public virtual void ClosePopupUI()
-    {
-        Managers.UI.ClosePopUpUI(this);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6319a515f0e45d31a18c6009822ab08e94f39df86f60f792333a5dc48a4b396
+size 321

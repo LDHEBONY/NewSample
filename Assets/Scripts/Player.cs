@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Player : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-
-        //Managers mg = Managers.p_Instance;
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c22b6e039c1aee1e54f8ed38725aee9769df7725c29da4d58dc64e757cf90b3d
+size 348

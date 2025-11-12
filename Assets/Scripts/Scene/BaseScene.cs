@@ -1,27 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-public abstract class BaseScene : MonoBehaviour
-{
-
-    public Define.Scene SceneType { get; protected set; } = Define.Scene.Unknown;
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-        Init();
-    }
-
-    protected virtual void Init()
-    {
-        Object obj = GameObject.FindObjectOfType(typeof(EventSystem));
-        if(obj == null)
-        {
-            Managers.Resource.Instatiate("UI/EventSystem").name = "@EventSystem";
-        }
-    }
-
-    public abstract void Clear();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:21b22e18c450e084e860c0e91c2bfcb374d8fcc9b29962a8ca44b6e31f895521
+size 652
