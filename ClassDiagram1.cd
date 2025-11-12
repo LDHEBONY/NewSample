@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Managers">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAJCIAAQAAgAAAAAAAEAgACBAARAIAAgRAUEQ=</HashCode>
+      <FileName>Assets\Scripts\Managers\Managers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseController">
+    <Position X="17.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAACQAAAAAAAAACAAAAAAIAAAAAABCBAAAMAA=</HashCode>
+      <FileName>Assets\Scripts\Controller\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController">
+    <Position X="15.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAABAAAgAAKAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Controller\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterController">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAKAAAAAAQIAAAAABCAAAAMAA=</HashCode>
+      <FileName>Assets\Scripts\Controller\MonsterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACgAAAACAAAAAAgAAAAIAACAAAAAAAAABBACA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Core\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Core\ResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseScene">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQACAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Scene\BaseScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScene">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="GameScene.Test" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Scene\GameScene.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="GameScene.CoroutineTest" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Scene\GameScene.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAABIAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene\GameScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogInScene">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene\LogInScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManagerEx">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAICAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Core\SceneManagerEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

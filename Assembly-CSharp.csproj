@@ -62,44 +62,45 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\Core\DataManager.cs" />
     <Compile Include="Assets\Scripts\UI\EventHandler_UI.cs" />
-    <Compile Include="Assets\Scripts\Managers\Core\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\UI\PopUp\Button_UI.cs" />
     <Compile Include="Assets\Scripts\Contents\Stat.cs" />
-    <Compile Include="Assets\Scripts\Scene\GameScene.cs" />
     <Compile Include="Assets\Scripts\Data\Data.Contents.cs" />
-    <Compile Include="Assets\Scripts\Contents\PlayerStat.cs" />
     <Compile Include="Assets\Scripts\Scene\BaseScene.cs" />
     <Compile Include="Assets\Scripts\Controller\CursorController.cs" />
     <Compile Include="Assets\Scripts\Util\Define.cs" />
-    <Compile Include="Assets\Scripts\UI\WojrldSpace\HPBar_UI.cs" />
-    <Compile Include="Assets\Scripts\Managers\Core\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\SceneManagerEx.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\Inven_UI.cs" />
-    <Compile Include="Assets\Scripts\PrefabTest.cs" />
-    <Compile Include="Assets\Scripts\Scene\LogInScene.cs" />
     <Compile Include="Assets\Scripts\TestCollision.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Managers\Core\InputManager.cs" />
     <Compile Include="Assets\Scripts\Managers\Contents\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\Core\UIManager.cs" />
     <Compile Include="Assets\Scripts\Managers\Contents\Spawnsite.cs" />
     <Compile Include="Assets\Scripts\Managers\Managers.cs" />
+    <Compile Include="Assets\Scripts\Controller\PlayControler.cs" />
+    <Compile Include="Assets\Scripts\UI\Base_UI.cs" />
+    <Compile Include="Assets\Scripts\Managers\Poolable.cs" />
+    <Compile Include="Assets\Scripts\UI\PopUp\PopUp_UI.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\UI\PopUp\Button_UI.cs" />
+    <Compile Include="Assets\Scripts\Scene\GameScene.cs" />
+    <Compile Include="Assets\Scripts\Contents\PlayerStat.cs" />
+    <Compile Include="Assets\Scripts\UI\WojrldSpace\HPBar_UI.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\PrefabTest.cs" />
+    <Compile Include="Assets\Scripts\Scene\LogInScene.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\UIManager.cs" />
     <Compile Include="Assets\Scripts\TestSound.cs" />
+    <Compile Include="Assets\Scripts\Managers\Contents\LoginManager.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\Scene_UI.cs" />
     <Compile Include="Assets\Scripts\UI\SubItem\Inven_Item_UI.cs" />
     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
-    <Compile Include="Assets\Scripts\Controller\PlayControler.cs" />
-    <Compile Include="Assets\Scripts\UI\Base_UI.cs" />
     <Compile Include="Assets\Scripts\CubeEvent.cs" />
     <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\WojrldSpace\MonsterState_UI.cs" />
-    <Compile Include="Assets\Scripts\Managers\Poolable.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Scripts\Controller\MonsterController.cs" />
     <Compile Include="Assets\Scripts\Util\Utill.cs" />
     <Compile Include="Assets\Scripts\Util\Extension.cs" />
-    <Compile Include="Assets\Scripts\UI\PopUp\PopUp_UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_fuku.shader" />
@@ -461,7 +462,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.5\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.9\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -972,6 +977,10 @@
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cloud.Assets.Runtime.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Assets.Runtime.Embedded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -988,12 +997,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Identity.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Identity.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
@@ -1004,16 +1021,32 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AssetManager.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AssetManager.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AssetManager.Upload.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AssetManager.Upload.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cloud.AppLinking.Editor.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.AppLinking.Editor.Embedded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Polybrush.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -1022,6 +1055,10 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Common.Editor.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Common.Editor.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1042,6 +1079,10 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
@@ -1068,6 +1109,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Authentication.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Authentication.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1076,8 +1121,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cloud.Common.Runtime.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Common.Runtime.Embedded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Assets.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Assets.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1098,6 +1151,14 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Common.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Common.Embedded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.AppLinking.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.AppLinking.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1124,6 +1185,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Core.Components">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Components.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Identity.Editor.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Identity.Editor.Embedded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1134,6 +1203,10 @@
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.Identity.Runtime.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.Identity.Runtime.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
@@ -1148,12 +1221,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Authentication">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Authentication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Authentication.PlayerAccounts">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Authentication.PlayerAccounts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.AppLinking.Runtime.Embedded">
+      <HintPath>Library\ScriptAssemblies\Unity.Cloud.AppLinking.Runtime.Embedded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">

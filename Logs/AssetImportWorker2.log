@@ -1,0 +1,1317 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ko' Physical Memory: 31899 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/user/Documents/GitHub/NewSample
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49783
+Successfully changed project path to: C:/Users/user/Documents/GitHub/NewSample
+C:/Users/user/Documents/GitHub/NewSample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40348]  Target information:
+
+Player connection [40348]  * "[IP] 172.30.1.21 [Port] 0 [Flags] 2 [Guid] 2263705273 [EditorId] 2263705273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LL0S6DJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/NewSample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11855 MB
+    Driver:   32.0.15.8180
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004172 seconds.
+- Loaded All Assemblies, in  0.204 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 158 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 531ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (571ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (2.0 MB). Loaded Objects now: 5217.
+Memory consumption went from 189.3 MB to 187.3 MB.
+Total: 15.564300 ms (FindLiveObjects: 0.897600 ms CreateObjectMapping: 0.383700 ms MarkObjects: 12.589200 ms  DeleteObjects: 1.689700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8453.399502 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1294.wav
+  artifactKey: Guid(138b8507a18ff4cf98f14476447f401c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1294.wav using Guid(138b8507a18ff4cf98f14476447f401c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e76f0af70502c508138569f570110e9') in 0.105758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity UI Samples/Textures and Sprites/Lit UI/BackgroundNormal.psd
+  artifactKey: Guid(50ab5eea3a58b4ddeb99f0388a1d77c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity UI Samples/Textures and Sprites/Lit UI/BackgroundNormal.psd using Guid(50ab5eea3a58b4ddeb99f0388a1d77c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1fe395892aae041bb08a079eb605a411') in 0.029970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1289.wav
+  artifactKey: Guid(eab462f39e9b945ed810305dea310fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1289.wav using Guid(eab462f39e9b945ed810305dea310fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b91ab1404ede55567706df74c95e126') in 0.012262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Textures/Cursor/Hand.png
+  artifactKey: Guid(42ec8a0e710138343a271d732299cfb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Textures/Cursor/Hand.png using Guid(42ec8a0e710138343a271d732299cfb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a7d4e77dccdb030d56bae5a4f5bdc93') in 0.006496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1292.wav
+  artifactKey: Guid(1ff2ba460c3594577b76d2f1edfee968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1292.wav using Guid(1ff2ba460c3594577b76d2f1edfee968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1e20b7f6ffda83d3fff405dc9c03722') in 0.012424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Necromanser/Stand/Standard_Two_Sided .shader
+  artifactKey: Guid(fb22f560333c7714b9f57e951dbaad60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Necromanser/Stand/Standard_Two_Sided .shader using Guid(fb22f560333c7714b9f57e951dbaad60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd154e52efb8790183de051c0d17997fb') in 0.006868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Art/Necromanser/Animations/Necromancer@jump.fbx
+  artifactKey: Guid(e392370d8d5044d41bd74782d760a557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Necromanser/Animations/Necromancer@jump.fbx using Guid(e392370d8d5044d41bd74782d760a557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb3afc0c781be71125888584037b64fc') in 0.090910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1225.wav
+  artifactKey: Guid(9b370d8eb6ffb49f8820db80e3e7b957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1225.wav using Guid(9b370d8eb6ffb49f8820db80e3e7b957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a24ba3b0b435543a0c1eff0216dbb37') in 0.010521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1257.wav
+  artifactKey: Guid(0bcf363c116234b2eb593bac01a170d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1257.wav using Guid(0bcf363c116234b2eb593bac01a170d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0f47435906556dc34fb2f099ec60951a') in 0.010580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Managers/Contents/Spawnsite.cs
+  artifactKey: Guid(567f63d8dbc685e44acc8e138b912f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/Contents/Spawnsite.cs using Guid(567f63d8dbc685e44acc8e138b912f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77f49be91f521b2444e1ece437140f85') in 0.003517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1256.wav
+  artifactKey: Guid(d4192b1c6089a4194ba8d1b217951774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1256.wav using Guid(d4192b1c6089a4194ba8d1b217951774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46a6ac1fa733de921cb92c036c7513d3') in 0.010145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1188.wav
+  artifactKey: Guid(b7edbce831e0746e8ae836d2f1f1cd0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1188.wav using Guid(b7edbce831e0746e8ae836d2f1f1cd0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '749680154743f4f5597f2f0c0371c8d7') in 0.013210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1213.wav
+  artifactKey: Guid(aa7798d801bda434681247185f733fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1213.wav using Guid(aa7798d801bda434681247185f733fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2eda8e36bbaf71507576044d8d42d73f') in 0.011010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1146.wav
+  artifactKey: Guid(066e616abbf624dd4b342c6bdf705157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1146.wav using Guid(066e616abbf624dd4b342c6bdf705157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '17fadfc3615aeb42ba335d4a13510ed1') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1190.wav
+  artifactKey: Guid(cf71e3a227cd1415ea722ad3b584d292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1190.wav using Guid(cf71e3a227cd1415ea722ad3b584d292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c314b78713990e20d26e5587618021a9') in 0.011416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Necromanser/Animations/Necromancer@spellcast1.fbx
+  artifactKey: Guid(e4bf6963e003ebc43bcf18405cfbedd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Necromanser/Animations/Necromancer@spellcast1.fbx using Guid(e4bf6963e003ebc43bcf18405cfbedd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e6e9c9ac76bb9210fb2572fb1746ebf') in 0.054346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Building_c_collider.fbx
+  artifactKey: Guid(2504be7eb69b8d64eb52456b112b1623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Building_c_collider.fbx using Guid(2504be7eb69b8d64eb52456b112b1623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0d89fae80c81cba2b4c654a37276f35') in 0.011332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Building_d.fbx
+  artifactKey: Guid(4d3f75b896990d94093409da2894e8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Building_d.fbx using Guid(4d3f75b896990d94093409da2894e8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f47781c830257ec8375a220d6cf4153d') in 0.006709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Necromanser/Animations/Necromancer@death.fbx
+  artifactKey: Guid(75880581ac3df894f8816241f5b83158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Necromanser/Animations/Necromancer@death.fbx using Guid(75880581ac3df894f8816241f5b83158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7920aee7f6a1c9881bce193b34438158') in 0.068010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1265.wav
+  artifactKey: Guid(2e2236cd9045448788f29f4f38713cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1265.wav using Guid(2e2236cd9045448788f29f4f38713cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac9997685d4eb3882d4dc265c893283b') in 0.015373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1317.wav
+  artifactKey: Guid(937129e0cafef428b8dacdc56a5bcb18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1317.wav using Guid(937129e0cafef428b8dacdc56a5bcb18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5ebaa6a84c3889c88a8f0bf22439675') in 0.013395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Sack_b.fbx
+  artifactKey: Guid(3d1c4f6e0f99bbb4393f9892baa17ef0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Sack_b.fbx using Guid(3d1c4f6e0f99bbb4393f9892baa17ef0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04e54c13c10b6d679eeb199b613ff134') in 0.006536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Rock_a.prefab
+  artifactKey: Guid(6dae62de16c1a7948957ecb3f97cb911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Rock_a.prefab using Guid(6dae62de16c1a7948957ecb3f97cb911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '347b10f9fc460815e7f36b249829bd0b') in 0.003878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Hay_a.fbx
+  artifactKey: Guid(12a5e908fb9e1be4fb8ae89a31af8cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Hay_a.fbx using Guid(12a5e908fb9e1be4fb8ae89a31af8cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa25e59543379185bb58dc7a409b7bba') in 0.005957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Art/Town/Particles/Polen.prefab
+  artifactKey: Guid(02b44bc98512ef547bac7db108a4638c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Particles/Polen.prefab using Guid(02b44bc98512ef547bac7db108a4638c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35738ce3a882bde16d403768685ecdb9') in 0.039154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Food_a.fbx
+  artifactKey: Guid(245fa55e56bbbeb4ca253c3f7a3dcfea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Food_a.fbx using Guid(245fa55e56bbbeb4ca253c3f7a3dcfea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '758107092c43c9ed910f1b2ce79b1644') in 0.005519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Mushroom_d.fbx
+  artifactKey: Guid(65dd9147cf3ee6e459e3a069ac6bbf08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Mushroom_d.fbx using Guid(65dd9147cf3ee6e459e3a069ac6bbf08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ef374b5bb88790465668c69712884db') in 0.006695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Mushroom_a.fbx
+  artifactKey: Guid(5462d7981caf2b1428cbc434c37493cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Mushroom_a.fbx using Guid(5462d7981caf2b1428cbc434c37493cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85309ef633c2275366f2ed69b05be6ea') in 0.007494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Art/Town/Textures/Grass_Texture.png
+  artifactKey: Guid(b42c396f96dc37d4b8d65127d47e8be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Textures/Grass_Texture.png using Guid(b42c396f96dc37d4b8d65127d47e8be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23cbaf892d3c5f69feccf2e250fd3779') in 0.005647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Bucket.prefab
+  artifactKey: Guid(f7967af397df22847975f89c8e017716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Bucket.prefab using Guid(f7967af397df22847975f89c8e017716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f08b342e53e1cc1be1da094020c0de9') in 0.005946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/unitychan_JUMP00.fbx
+  artifactKey: Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/unitychan_JUMP00.fbx using Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f19d66374050423e2b29a99c38d3619b') in 0.016914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Logs_b.fbx
+  artifactKey: Guid(b1491e09a5a59644986da9c34b34c2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Logs_b.fbx using Guid(b1491e09a5a59644986da9c34b34c2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a112c83623877669df1eb3bf4bb619fb') in 0.008730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Sewers_entrance.fbx
+  artifactKey: Guid(d095d13af8c6dd24ebd580af92a7285c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Sewers_entrance.fbx using Guid(d095d13af8c6dd24ebd580af92a7285c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e6dda41fe33902c08c5c59bdffaecd0') in 0.006777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Hay_a.prefab
+  artifactKey: Guid(d2455836f34483a42b6613a8fc03a747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Hay_a.prefab using Guid(d2455836f34483a42b6613a8fc03a747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf5ce4e3c61655aec81e3f4f5be4adea') in 0.003524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Hay_c.fbx
+  artifactKey: Guid(8c6b2953968c1a64ea5f2876c2eb1ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Hay_c.fbx using Guid(8c6b2953968c1a64ea5f2876c2eb1ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a6a1cbcfe6b392cb8935278c8491664') in 0.005884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Mushroom_b.fbx
+  artifactKey: Guid(75f355bbd6a4def47a15c78a9050ba98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Mushroom_b.fbx using Guid(75f355bbd6a4def47a15c78a9050ba98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40002a59c29038707f95d84d2ca56ed4') in 0.005683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Sack_a.fbx
+  artifactKey: Guid(3a84c78dc4f6f0641a02ec454782e422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Sack_a.fbx using Guid(3a84c78dc4f6f0641a02ec454782e422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1192e5045f3eb061fac154f43b736979') in 0.005951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Building_d.prefab
+  artifactKey: Guid(60a80932f15a9b5428719cf63049a198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Building_d.prefab using Guid(60a80932f15a9b5428719cf63049a198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0e75ad12b916890cb0a0e6c8024b12c') in 0.005062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Building_f.prefab
+  artifactKey: Guid(1e44e02e77bb6764c97f423cc75574da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Building_f.prefab using Guid(1e44e02e77bb6764c97f423cc75574da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e587189683acfc9b3262c94acc2045a') in 0.004387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/_TerrainAutoUpgrade/layer_GrassyRocks(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(fcd0d7d673e58b442a38f8c5bb5805a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/_TerrainAutoUpgrade/layer_GrassyRocks(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(fcd0d7d673e58b442a38f8c5bb5805a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '786d8ba6630ab4e42ad46f3d9144c101') in 0.003818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Rock_e.fbx
+  artifactKey: Guid(fde0fd8d6ea2b654cb48ad2f94e1ccd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Rock_e.fbx using Guid(fde0fd8d6ea2b654cb48ad2f94e1ccd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07290e61a318b036a6f494e99de470a2') in 0.008245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Cart_Wheel_a.fbx
+  artifactKey: Guid(24604ce785089a84fac68808959ebd89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Cart_Wheel_a.fbx using Guid(24604ce785089a84fac68808959ebd89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a810838dd1302dc276bba75ad374b6fc') in 0.008184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1334.wav
+  artifactKey: Guid(a173c18dcf6934320bd53ae8a360afab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1334.wav using Guid(a173c18dcf6934320bd53ae8a360afab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8f8949beef8151b30201cb09159c3c4') in 0.011604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1209.wav
+  artifactKey: Guid(1c6f9af47dccb4ab18e33ce5ff8a9a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1209.wav using Guid(1c6f9af47dccb4ab18e33ce5ff8a9a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b3dcae27a14a103ce14b085a8c29773') in 0.010709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Town/Scenes/DemoSettings.lighting
+  artifactKey: Guid(906f3db5cc455eb40ab2605184a96400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Scenes/DemoSettings.lighting using Guid(906f3db5cc455eb40ab2605184a96400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '6086040f0190ea877027b73966a5ce5b') in 0.006854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1170.wav
+  artifactKey: Guid(e460fa75a86f04e8fa09ac92a6cb8939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1170.wav using Guid(e460fa75a86f04e8fa09ac92a6cb8939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b720581abf96425cac474485516484b6') in 0.010863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Art/Town/Meshes/Building_c.fbx
+  artifactKey: Guid(6a5d1ad4cb7517d4f9337e679d93fa92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Meshes/Building_c.fbx using Guid(6a5d1ad4cb7517d4f9337e679d93fa92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb9100f50681f4883ca4696ea9781076') in 0.006170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1226.wav
+  artifactKey: Guid(7ae964fefc0b946e2bfc1d4f9e859adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1226.wav using Guid(7ae964fefc0b946e2bfc1d4f9e859adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '090e435f7fa7e7c70f7147c12123ad38') in 0.010651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1248.wav
+  artifactKey: Guid(96b07f8982ea34681870acac203c65aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1248.wav using Guid(96b07f8982ea34681870acac203c65aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4bc7f236f28e186075a2b02452aa3fe') in 0.011585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1151.wav
+  artifactKey: Guid(d2d3ebeeaa2564a2fa5228a7df702bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1151.wav using Guid(d2d3ebeeaa2564a2fa5228a7df702bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ef1a5487ce744b99a5923560d664a54') in 0.011081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1197c.wav
+  artifactKey: Guid(29f909cdfba9e4028b7899e00a166918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1197c.wav using Guid(29f909cdfba9e4028b7899e00a166918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '573748ed27b21b103e4abd4cf432a13f') in 0.011840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scripts/Managers/Core/UIManager.cs
+  artifactKey: Guid(25bee589bac796e4c9c27b0b270540b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Managers/Core/UIManager.cs using Guid(25bee589bac796e4c9c27b0b270540b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ade127dbd2c7e8190476a2a1cbb51681') in 0.002310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/Necromanser/Texture/necromant_Body_Emission.tga
+  artifactKey: Guid(c9e2227c9d9284a47bac02533930beef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Necromanser/Texture/necromant_Body_Emission.tga using Guid(c9e2227c9d9284a47bac02533930beef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a888b97c77dc26d630d0887a0a9d592') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1296.wav
+  artifactKey: Guid(1fb0ca26e45a74ada8493f41a4a21570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1296.wav using Guid(1fb0ca26e45a74ada8493f41a4a21570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94b49499a600a23f9bceffda99e9703d') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Sounds/UnityChan/univ1136.wav
+  artifactKey: Guid(5167ee0c131d0471995e0e66aa1aee40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Sounds/UnityChan/univ1136.wav using Guid(5167ee0c131d0471995e0e66aa1aee40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07a0036dc6b604fc7b4cb7efdc50fec1') in 0.010743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Art/Town/Prefabs/Lantern_post.prefab
+  artifactKey: Guid(019569278ee343c4e950e1f9afe6ec4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/Town/Prefabs/Lantern_post.prefab using Guid(019569278ee343c4e950e1f9afe6ec4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a2e4d0abe95eb58bf8ddbba433c4379') in 0.005367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.161054 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/unitychan_JUMP00B.fbx
+  artifactKey: Guid(d6fd0c7048894427c8663615237d6a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/unitychan_JUMP00B.fbx using Guid(d6fd0c7048894427c8663615237d6a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '925ba913fd3414e064ccaa0340839342') in 0.018402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/FaceAnimation/smile2@unitychan.anim
+  artifactKey: Guid(901d9b98ec9a64ade8f264b6e32c1341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/FaceAnimation/smile2@unitychan.anim using Guid(901d9b98ec9a64ade8f264b6e32c1341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d235ccee70069bf3d977f21e18f0022') in 0.003925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Animations/Archer@WalkSlow.FBX
+  artifactKey: Guid(6f61a917d0f60b446af35d2e51d56ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Animations/Archer@WalkSlow.FBX using Guid(6f61a917d0f60b446af35d2e51d56ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b8ec83f71cf796a320f12f8fec7607a') in 0.009120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/FaceAnimation/MTH_E.anim
+  artifactKey: Guid(63e3bd86527074923b9dc38ddb715245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/FaceAnimation/MTH_E.anim using Guid(63e3bd86527074923b9dc38ddb715245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b64d88189bf6fd0b74f7774fcdb41399') in 0.003231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/UnityChan/Shader/Unitychan_chara_eye.shader
+  artifactKey: Guid(abaf2020b803b6847b5c081ed22c05c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Shader/Unitychan_chara_eye.shader using Guid(abaf2020b803b6847b5c081ed22c05c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '696efde0e6ca3e69a5799e80e4a9db30') in 0.003616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Art/UnityChan/Shader/Unitychan_chara_hada_blend.shader
+  artifactKey: Guid(7a95784c68f03494d8c7911e15fab82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Shader/Unitychan_chara_hada_blend.shader using Guid(7a95784c68f03494d8c7911e15fab82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e97f90fb63dbfcaf3dee4420222975b') in 0.002867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Animations/Archer@Attack1.FBX
+  artifactKey: Guid(8ca4ee804edcfc74cb82e44d624e7eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Animations/Archer@Attack1.FBX using Guid(8ca4ee804edcfc74cb82e44d624e7eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64f83b070d822256ecc238eb74370ac1') in 0.008744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Avatar Mask/Archer UpperBody AvatarMask.mask
+  artifactKey: Guid(98e3a59f0df1fa647b89e5370cd555bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Avatar Mask/Archer UpperBody AvatarMask.mask using Guid(98e3a59f0df1fa647b89e5370cd555bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c364dd665199c33de75df841b0b77b3') in 0.002707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX
+  artifactKey: Guid(dbbdcfdc751ca1146932bd6bc3dda730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX using Guid(dbbdcfdc751ca1146932bd6bc3dda730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7bcc2beb94e0c352102dad289ae6cf0f') in 0.010769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/UnityChan/Materials/Right.mat
+  artifactKey: Guid(88157e674d7d0314db76940c73b69405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Materials/Right.mat using Guid(88157e674d7d0314db76940c73b69405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e608bc0dc0bdfdbd0fee869a72d18dde') in 0.002372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Characters/Archer-Arrow.FBX
+  artifactKey: Guid(a0d6a56298571f1429658686f72d02d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Characters/Archer-Arrow.FBX using Guid(a0d6a56298571f1429658686f72d02d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7af779cc4bff2b976b09efe73bba9ff0') in 0.006964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Fall.FBX
+  artifactKey: Guid(864149f863d0268478c600e44bcc6aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Fall.FBX using Guid(864149f863d0268478c600e44bcc6aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b817379d57259c7cbaa5b70e340df5ed') in 0.008553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Several Swords With Scabbards/Swords/KnightSword/Textures/Knight_sword_Sword_Normal.png
+  artifactKey: Guid(44a726d53d67d294d8dc33dc2a6cad8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Several Swords With Scabbards/Swords/KnightSword/Textures/Knight_sword_Sword_Normal.png using Guid(44a726d53d67d294d8dc33dc2a6cad8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c605824efa42c4bd4fdecd698d10240') in 0.005508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Materials/Archer.mat
+  artifactKey: Guid(e1cd1a76ecd557440a55dfaeead52541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack/Materials/Archer.mat using Guid(e1cd1a76ecd557440a55dfaeead52541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8e73a0256a5b746ff93a2116e3cceca') in 0.003976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/UnityChan/Texture/guide.tga
+  artifactKey: Guid(d04d722a0c808412ea85876950eec517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Texture/guide.tga using Guid(d04d722a0c808412ea85876950eec517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1a279d659e548ccac0f8313415ddc53') in 0.005925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/unitychan_WALK00_B.fbx
+  artifactKey: Guid(20fd7934e77f68e4983c9c0fe97c7117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/unitychan_WALK00_B.fbx using Guid(20fd7934e77f68e4983c9c0fe97c7117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4214433e72c511c52965f992c7d4870b') in 0.025475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/FaceAnimation/disstract1@unitychan.anim
+  artifactKey: Guid(fc07439899bf64b59b05471e3d59be6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/FaceAnimation/disstract1@unitychan.anim using Guid(fc07439899bf64b59b05471e3d59be6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfdda6670d6b003d4fc2acc2e6bd6dcb') in 0.003300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Art/UnityChan/Materials/eyebase.mat
+  artifactKey: Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Materials/eyebase.mat using Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae5879f0c88461f2062241f2138b7b5a') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Resources/Art/UnityChan/Texture/body_01.tga
+  artifactKey: Guid(f9c6074c5a78e71448f9efd3013cadda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Texture/body_01.tga using Guid(f9c6074c5a78e71448f9efd3013cadda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eea737f345021cdb50b3c8a6891283bd') in 0.007001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab
+  artifactKey: Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab using Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6acb7150bd61d5eb229875f4e8b5fc5') in 0.007520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/Art/UnityChan/Texture/skin_01.tga
+  artifactKey: Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Texture/skin_01.tga using Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e946edcf389420a6ed49dbeb45e8cd03') in 0.005111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Art/UnityChan/Texture/ENV2.tga
+  artifactKey: Guid(763c5d30206d1d54a9b49b3309e37fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Texture/ENV2.tga using Guid(763c5d30206d1d54a9b49b3309e37fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c05b358a3933e07c8000278f3e48b26') in 0.005932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Idle.FBX
+  artifactKey: Guid(f2c1d48120ff49c419050488b5fdfe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Idle.FBX using Guid(f2c1d48120ff49c419050488b5fdfe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a958503fc3f76eb0c9616ab8009d12ff') in 0.008464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Prefabs/UI/WorldSpace/UI_HPBar.prefab
+  artifactKey: Guid(3c7d17c97f102f04ca1b37fa51c8fffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Prefabs/UI/WorldSpace/UI_HPBar.prefab using Guid(3c7d17c97f102f04ca1b37fa51c8fffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '953ee5a6762b9b9c23b2452a157677dd') in 0.022680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Materials/2Handed.mat
+  artifactKey: Guid(67c6985106584cb489a175f22e14c7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Materials/2Handed.mat using Guid(67c6985106584cb489a175f22e14c7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92cac4fa3f7aaec28409313ab8514f4e') in 0.003150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Several Swords With Scabbards/Swords/KnightSword/Model/Knight_sword.fbx
+  artifactKey: Guid(291b0ead20f640c4187b15f91331a327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Several Swords With Scabbards/Swords/KnightSword/Model/Knight_sword.fbx using Guid(291b0ead20f640c4187b15f91331a327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '734dbda895bdb2b5dcf3554573449580') in 0.008445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/unitychan_WALK00_L.fbx
+  artifactKey: Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/unitychan_WALK00_L.fbx using Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '659269217f2b086c7d9df052214dc830') in 0.016798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Materials/hair.mat
+  artifactKey: Guid(5ebb6caef8207d243a588a574971408c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Materials/hair.mat using Guid(5ebb6caef8207d243a588a574971408c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78137abf887bc25cd6457ee86cac8795') in 0.005757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/Animators/UnityChanActionCheck.controller
+  artifactKey: Guid(212b3a957fa7bee41a0bf8c3b14ce293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/Animators/UnityChanActionCheck.controller using Guid(212b3a957fa7bee41a0bf8c3b14ce293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5dec08a7948aae174254aec7e102b0da') in 0.056657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures/2Handed.psd
+  artifactKey: Guid(53e71cc60705d4a49ad71768851612fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures/2Handed.psd using Guid(53e71cc60705d4a49ad71768851612fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f6c223b98db880726081bcc2eae1ea7') in 0.005369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Materials/body.mat
+  artifactKey: Guid(bb570020a8c3bad4bbf803af20e78937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Materials/body.mat using Guid(bb570020a8c3bad4bbf803af20e78937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a513273d5bf8c0cda486b19dd70f8c3') in 0.008136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Art/UnityChan/Animations/FaceAnimation/disstract2@unitychan.anim
+  artifactKey: Guid(4f32f4345ffde43aca2270c41dcf6e81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Animations/FaceAnimation/disstract2@unitychan.anim using Guid(4f32f4345ffde43aca2270c41dcf6e81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de8aadc8ca43227671c96c3cf7bb915e') in 0.003204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/UnityChan/Texture/FO_CLOTH1.tga
+  artifactKey: Guid(cc8f70f2ec571e9478efa98c041cde7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Texture/FO_CLOTH1.tga using Guid(cc8f70f2ec571e9478efa98c041cde7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d85e6d1a055d8406e5e8de55cdd4269') in 0.005837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Art/UnityChan/Materials/Left.mat
+  artifactKey: Guid(00cf17fb11d4e76448c2096f7ee6aa4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Art/UnityChan/Materials/Left.mat using Guid(00cf17fb11d4e76448c2096f7ee6aa4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '659016bd81c5e079427a07db650dcb68') in 0.003410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Cube.prefab
+  artifactKey: Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Cube.prefab using Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f8f04cdbff1fae81fb7f7db95004f1a') in 0.010366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Unity.AI.Navigation.Samples.asmdef
+  artifactKey: Guid(62b574997e92efd41a8a1109157a0cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Unity.AI.Navigation.Samples.asmdef using Guid(62b574997e92efd41a8a1109157a0cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b85d39371822aa28f47c3fa97d63180') in 0.002416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.156859 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Scenes/Knight Warrior.unity
+  artifactKey: Guid(d90f68647fd1d1846a58e13f1e6aa615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Scenes/Knight Warrior.unity using Guid(d90f68647fd1d1846a58e13f1e6aa615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '330e016dd62b8b85106d3f2df9c986b3') in 0.002637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile3.prefab
+  artifactKey: Guid(9f5b0033b1d69084f84192f57fdc9224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile3.prefab using Guid(9f5b0033b1d69084f84192f57fdc9224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31a90cc95b12eb5f7bfabcdf00f3be18') in 0.005862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack/Textures/Mage.psd
+  artifactKey: Guid(1ff7c4f4f3f113d4caa9299b1fc5022a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/AtkAnimations/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack/Textures/Mage.psd using Guid(1ff7c4f4f3f113d4caa9299b1fc5022a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5327ca8e3142bb83dc35b7b87849c1d') in 0.007538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ClickToMove.cs
+  artifactKey: Guid(c9472e73a59274b9b8da79d72004bd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ClickToMove.cs using Guid(c9472e73a59274b9b8da79d72004bd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15710442e64620a2560044d36d7958aa') in 0.003180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.fbx
+  artifactKey: Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.fbx using Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a8793e80ce0aac3fc915f2ccb321f58') in 0.009638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Oscillator.cs
+  artifactKey: Guid(c59ac8154f1b24ea7a85cab0f39a4489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Oscillator.cs using Guid(c59ac8154f1b24ea7a85cab0f39a4489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '486fc9c6abb465a8c7d7b84b1414f837') in 0.003032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DestroyOnTrigger.cs
+  artifactKey: Guid(c786c4b29e72040b881bf13065fb9788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DestroyOnTrigger.cs using Guid(c786c4b29e72040b881bf13065fb9788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8899b80173924ecb83944260c818130') in 0.004771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat
+  artifactKey: Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat using Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cadd78c5417f4ba9fc5e0521875d86ab') in 0.004355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/NavigationSampleInitializer.cs
+  artifactKey: Guid(4b4f798af8320134f8549651d7ea621a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/NavigationSampleInitializer.cs using Guid(4b4f798af8320134f8549651d7ea621a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95bf3327fdd0045f0edbc0655e788c11') in 0.003926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile11.prefab
+  artifactKey: Guid(eb925ae209e72a742a6bebd10c4da798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile11.prefab using Guid(eb925ae209e72a742a6bebd10c4da798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e484b2c49f327f1b476d9b7afd9fa68') in 0.006777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-Without-HeightMesh.asset
+  artifactKey: Guid(c1760d40bfe7eb34e81b5ebcd8e6303f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-Without-HeightMesh.asset using Guid(c1760d40bfe7eb34e81b5ebcd8e6303f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3099af0b2c220848981c4929022d237a') in 0.004262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientationSettings.lighting
+  artifactKey: Guid(45a4ca14d5b84d947bcaf6225862d5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientationSettings.lighting using Guid(45a4ca14d5b84d947bcaf6225862d5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'd55e4732eeb9a4fd705522a95a9d5b1f') in 0.005055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/LightmapWithFog.png
+  artifactKey: Guid(8377171c01a5547358598762f90c022f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/LightmapWithFog.png using Guid(8377171c01a5547358598762f90c022f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49af1cc53e3c0c1d5a83b0e52fa219a5') in 0.007214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation.unity
+  artifactKey: Guid(de3b928c3e7da4138bdb4cf0c0c43b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation.unity using Guid(de3b928c3e7da4138bdb4cf0c0c43b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '760f38b5d1e60492fc976b15f85db47d') in 0.002220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation/NavMesh-TiltedPlane.asset
+  artifactKey: Guid(c4fc4cc23b8fe4c46ae30ebae2a3ed7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation/NavMesh-TiltedPlane.asset using Guid(c4fc4cc23b8fe4c46ae30ebae2a3ed7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4c619f0c4bdb4c0a7c5ec6929e59883') in 0.003047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile11.asset
+  artifactKey: Guid(1ed3d21512658cd43914192e689047be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile11.asset using Guid(1ed3d21512658cd43914192e689047be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e7694d356e7ca3d05feeb5c6c12bc96') in 0.003513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_mesh.unity
+  artifactKey: Guid(01a58dc6a76c24f859a51e3de2203501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_mesh.unity using Guid(01a58dc6a76c24f859a51e3de2203501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b05b78ab806aa83f7cbfb4aab0b4887') in 0.002088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile15.asset
+  artifactKey: Guid(84c6548965e19ec4e85c00fd43b0cf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile15.asset using Guid(84c6548965e19ec4e85c00fd43b0cf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '294575fee0b8e6c95707a99c39a843a1') in 0.002761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat
+  artifactKey: Guid(ade8fca681f724cd89b5a568642f15ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat using Guid(ade8fca681f724cd89b5a568642f15ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46ec5d40e574fdb5b91ce3d30c75f25b') in 0.003737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DungeonManager.cs
+  artifactKey: Guid(c56d911659e3c4b499e11b47a73a4dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DungeonManager.cs using Guid(c56d911659e3c4b499e11b47a73a4dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1750c22965e0d32959cfed45330c6fe1') in 0.003049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon.unity
+  artifactKey: Guid(64e67ca20d18848429dd567d351e9746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon.unity using Guid(64e67ca20d18848429dd567d351e9746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '714c0297aab619f72d94565b8156d60e') in 0.002147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile0.asset
+  artifactKey: Guid(46515c974f777864eb6b6bad806a41a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile0.asset using Guid(46515c974f777864eb6b6bad806a41a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8e7305c974bd67b1907135adcc6d239') in 0.002649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh.unity
+  artifactKey: Guid(b96a618785dcb49f3a9ea3671ff3ef56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh.unity using Guid(b96a618785dcb49f3a9ea3671ff3ef56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd63bac34766835c23186a750925f3139') in 0.002263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile10.prefab
+  artifactKey: Guid(5a42d29fbf7424949aef05b1ffaf7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile10.prefab using Guid(5a42d29fbf7424949aef05b1ffaf7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee7df746e6587f802cb8b459ebc586f8') in 0.005126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile2.prefab
+  artifactKey: Guid(34a33b6f5666ab64dbf8eaed73dbc677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile2.prefab using Guid(34a33b6f5666ab64dbf8eaed73dbc677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56cac585fc0f28cbc3c9a80a3453b225') in 0.004666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile5.prefab
+  artifactKey: Guid(55df5bb05b3629b44ac9536db6727e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile5.prefab using Guid(55df5bb05b3629b44ac9536db6727e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a3c6fac5baaa3fb1b6cb80fbd6ab6a9') in 0.008295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrainSettings.lighting
+  artifactKey: Guid(1ce27b0ea12a96c4dbf3b9507993580a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrainSettings.lighting using Guid(1ce27b0ea12a96c4dbf3b9507993580a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'a001b092545369a124c1715a7710af71') in 0.005228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_meshSettings.lighting
+  artifactKey: Guid(613ed4ed64e81e541a2a4a44a102eb78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_meshSettings.lighting using Guid(613ed4ed64e81e541a2a4a44a102eb78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '14d150a53aed239aee4a8c3e480e174b') in 0.003822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile3.asset
+  artifactKey: Guid(3d0f05ef2ffa5684c98666f976f85d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile3.asset using Guid(3d0f05ef2ffa5684c98666f976f85d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78b40ffc5abbfb72dec4766bbac86409') in 0.003160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomWalk.cs
+  artifactKey: Guid(dd76b8ee2dbcf4be6998e917c65cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomWalk.cs using Guid(dd76b8ee2dbcf4be6998e917c65cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8e2cf1b0b4e608e009ee6743f09475c') in 0.002465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/MeshTool.cs
+  artifactKey: Guid(9d5a3e609186342b2a976cd32fd7d0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/MeshTool.cs using Guid(9d5a3e609186342b2a976cd32fd7d0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e1c1119c390f4bafa0d4f2426050bba') in 0.002374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat
+  artifactKey: Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat using Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3511920fc09416a546078d4932521350') in 0.003405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile5.asset
+  artifactKey: Guid(b120c0c77747600448c3119bc7d76dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile5.asset using Guid(b120c0c77747600448c3119bc7d76dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25d0a6775f9fd1e99735a36f9e208c6f') in 0.003070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

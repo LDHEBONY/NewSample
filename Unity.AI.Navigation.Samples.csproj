@@ -61,21 +61,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\SpawnPrefabOnKeyDown.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\Despawner.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\ClickToMove.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\RandomWalk.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\DynamicNavMeshObject.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\MeshTool.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\EnableIffSleeping.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\RandomInstancing.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\Oscillator.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\AgentLinkMover.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\ProjectSettingsUtilities\NavigationSampleInitializer.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\NavMeshSurfaceVolumeUpdater.cs" />
-    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\DestroyOnTrigger.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\GloballyUpdatedNavMeshSurface.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\DungeonManager.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\FreeCam.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\Despawner.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\ClickToMove.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\RandomWalk.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\EnableIffSleeping.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\RandomInstancing.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\Oscillator.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\ProjectSettingsUtilities\NavigationSampleInitializer.cs" />
+    <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\DestroyOnTrigger.cs" />
     <Compile Include="Assets\Samples\AI Navigation\1.1.6\Build And Connect NavMesh Surfaces\Scripts\NavigationLoop.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -427,7 +427,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.9\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -455,15 +455,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.9\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.5\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.9\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.5\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.9\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
