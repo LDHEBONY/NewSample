@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\scene\\loginscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene\\loginscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\core\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\core\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:05:53.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInScene.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Scene\\LogInScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene\\LogInScene.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Scene\\LogInScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene\\LogInScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:39:54.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PoolManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:04:09.063Z"
             },
             {
               "$type": "Document",
@@ -32,20 +76,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T18:50:18.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Managers.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Managers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Managers.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Managers.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\Managers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwEUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T18:42:46.391Z"
             }

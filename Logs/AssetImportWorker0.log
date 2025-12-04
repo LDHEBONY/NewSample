@@ -15,7 +15,7 @@ C:/Users/user/Documents/GitHub/NewSample
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62284
+49685
 Successfully changed project path to: C:/Users/user/Documents/GitHub/NewSample
 C:/Users/user/Documents/GitHub/NewSample
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Users/user/Documents/GitHub/NewSample
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4692]  Target information:
+Player connection [23560]  Target information:
 
-Player connection [4692]  * "[IP] 172.30.1.21 [Port] 0 [Flags] 2 [Guid] 3285291222 [EditorId] 3285291222 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LL0S6DJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23560]  * "[IP] 172.30.1.21 [Port] 0 [Flags] 2 [Guid] 1910576056 [EditorId] 1910576056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LL0S6DJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4692] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4692] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23560] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 9.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -73,47 +73,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003935 seconds.
-- Loaded All Assemblies, in  0.286 seconds
+Registered in 0.006174 seconds.
+- Loaded All Assemblies, in  0.304 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 156 ms
+Android Extension - Scanning For ADB Devices 182 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.350 seconds
-Domain Reload Profiling: 635ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 721ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (84ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (350ms)
+	FinalizeReload (418ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (319ms)
+		SetupLoadedEditorAssemblies (380ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (214ms)
+			InitializePlatformSupportModulesInManaged (243ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,7 +122,7 @@ Domain Reload Profiling: 635ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.538 seconds
+- Loaded All Assemblies, in  0.622 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -150,205 +150,48 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.766 seconds
-Domain Reload Profiling: 1301ms
-	BeginReloadAssembly (107ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (149ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (767ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (634ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6331 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (2.0 MB). Loaded Objects now: 6803.
-Memory consumption went from 227.2 MB to 225.2 MB.
-Total: 8.289400 ms (FindLiveObjects: 1.858200 ms CreateObjectMapping: 0.427600 ms MarkObjects: 5.570900 ms  DeleteObjects: 0.432000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 169399.942066 seconds.
-  path: Assets/Scripts/Managers/Contents/LoginManager.cs
-  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5814dd632b62a210c74b9111e8b482f7') in 0.001633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.801 seconds
-UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
-  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
-  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
-
-(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
-
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.594 seconds
-Domain Reload Profiling: 1394ms
-	BeginReloadAssembly (534ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (405ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (594ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (372ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (280ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6820.
-Memory consumption went from 211.1 MB to 209.1 MB.
-Total: 3.469100 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.169400 ms MarkObjects: 2.651900 ms  DeleteObjects: 0.311500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.295 seconds
-UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
-  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
-  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
-
-(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
-
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.869 seconds
-Domain Reload Profiling: 1162ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1542ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (176ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (244ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (869ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (923ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (398ms)
+		SetupLoadedEditorAssemblies (789ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (585ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.67 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6836.
-Memory consumption went from 211.4 MB to 209.4 MB.
-Total: 3.454300 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.642000 ms  DeleteObjects: 0.343500 ms)
+Unloading 6331 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.0 MB). Loaded Objects now: 6803.
+Memory consumption went from 227.3 MB to 225.3 MB.
+Total: 8.719400 ms (FindLiveObjects: 1.052300 ms CreateObjectMapping: 0.288300 ms MarkObjects: 6.598700 ms  DeleteObjects: 0.779600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -364,13 +207,469 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.777269 seconds.
+  Time since last request: 1227100.726072 seconds.
   path: Assets/Scripts/Managers/Contents/LoginManager.cs
   artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1387542d25361694324d1b95a6720d27') in 0.001299 seconds
+ -> (artifact id: '1387542d25361694324d1b95a6720d27') in 0.002800 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.728 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1363ms
+	BeginReloadAssembly (522ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (402ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6820.
+Memory consumption went from 211.2 MB to 209.3 MB.
+Total: 4.356200 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.415900 ms  DeleteObjects: 0.462200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd1a4afd9a899b826d76969102449e68 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.309 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (918ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6836.
+Memory consumption went from 211.5 MB to 209.6 MB.
+Total: 3.451600 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.102700 ms MarkObjects: 2.654000 ms  DeleteObjects: 0.308900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd1a4afd9a899b826d76969102449e68 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.306 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6852.
+Memory consumption went from 211.5 MB to 209.6 MB.
+Total: 3.567300 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.156200 ms MarkObjects: 2.634000 ms  DeleteObjects: 0.317200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd1a4afd9a899b826d76969102449e68 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.386 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.157 seconds
+Domain Reload Profiling: 1541ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6868.
+Memory consumption went from 211.6 MB to 209.6 MB.
+Total: 3.541000 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.786500 ms  DeleteObjects: 0.335400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 799349b383405c6a248a70aafc389e38 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.301 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (893ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6884.
+Memory consumption went from 211.5 MB to 209.5 MB.
+Total: 3.530700 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.747000 ms  DeleteObjects: 0.360200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 799349b383405c6a248a70aafc389e38 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.297 seconds
+UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
+  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
+  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
+
+(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
+
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 1163ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6900.
+Memory consumption went from 211.6 MB to 209.6 MB.
+Total: 4.161000 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.160800 ms MarkObjects: 3.321000 ms  DeleteObjects: 0.344200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 799349b383405c6a248a70aafc389e38 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
 ========================================================================
 Received Prepare
 Caller must complete domain reload
@@ -390,46 +689,46 @@ See "Script Serialization" page in the Unity Manual for further details.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.869 seconds
-Domain Reload Profiling: 1171ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
 		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (869ms)
+	FinalizeReload (891ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (415ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6852.
-Memory consumption went from 211.2 MB to 209.2 MB.
-Total: 3.608100 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.645600 ms  DeleteObjects: 0.326500 ms)
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6916.
+Memory consumption went from 211.6 MB to 209.6 MB.
+Total: 3.640800 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.940500 ms  DeleteObjects: 0.308100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -441,24 +740,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 799349b383405c6a248a70aafc389e38 -> 361e40e045db54f6ccaecee6b36daf87
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
 ========================================================================
 Received Import Request.
-  Time since last request: 98.314069 seconds.
-  path: Assets/Scripts/Managers/Managers.cs
-  artifactKey: Guid(8e4a0cd85476a67499656e225e2a0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/Managers.cs using Guid(8e4a0cd85476a67499656e225e2a0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b1ef18a50be8a95920848255ecd796a7') in 0.004705 seconds
+  Time since last request: 2055.760699 seconds.
+  path: Assets/Scripts/Managers/Contents/LoginManager.cs
+  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd27072a9b45891879564c19d3902c67e') in 0.003159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 118.160134 seconds.
+  path: Assets/Scripts/Managers/Contents/LoginManager.cs
+  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8960f3fbcb71ce4ca8b007aca996849') in 0.000484 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.303 seconds
+- Loaded All Assemblies, in  0.324 seconds
 UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
 See "Script Serialization" page in the Unity Manual for further details.
   at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
@@ -473,46 +783,46 @@ See "Script Serialization" page in the Unity Manual for further details.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.844 seconds
-Domain Reload Profiling: 1145ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.937 seconds
+Domain Reload Profiling: 1259ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (177ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (845ms)
+	FinalizeReload (937ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (290ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6868.
-Memory consumption went from 211.2 MB to 209.2 MB.
-Total: 3.341600 ms (FindLiveObjects: 0.341200 ms CreateObjectMapping: 0.176900 ms MarkObjects: 2.506000 ms  DeleteObjects: 0.317000 ms)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6932.
+Memory consumption went from 211.3 MB to 209.4 MB.
+Total: 3.967600 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.187800 ms MarkObjects: 3.008600 ms  DeleteObjects: 0.390500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -524,6 +834,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3ef2235e713990e92c15039e4c25a197 -> 361e40e045db54f6ccaecee6b36daf87
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -532,7 +843,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.294 seconds
+- Loaded All Assemblies, in  0.306 seconds
 UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
 See "Script Serialization" page in the Unity Manual for further details.
   at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
@@ -547,297 +858,46 @@ See "Script Serialization" page in the Unity Manual for further details.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.872 seconds
-Domain Reload Profiling: 1164ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (17ms)
 	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (177ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (872ms)
+	FinalizeReload (891ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6884.
-Memory consumption went from 211.4 MB to 209.4 MB.
-Total: 3.460200 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.184900 ms MarkObjects: 2.620600 ms  DeleteObjects: 0.335300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.299 seconds
-UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
-  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
-  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
-
-(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
-
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.908 seconds
-Domain Reload Profiling: 1206ms
-	BeginReloadAssembly (108ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (180ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (909ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (406ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6900.
-Memory consumption went from 211.5 MB to 209.5 MB.
-Total: 3.607900 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.145400 ms MarkObjects: 2.815800 ms  DeleteObjects: 0.330000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 184.130978 seconds.
-  path: Assets/Scripts/Managers/Contents/GameManager.cs
-  artifactKey: Guid(db2eb1976a7c7ca4a8127a59446a93ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/Contents/GameManager.cs using Guid(db2eb1976a7c7ca4a8127a59446a93ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9813a8a3bb4feee0b9bb9a6ef3aee6b7') in 0.003473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.063366 seconds.
-  path: Assets/Scripts/Managers/Contents/LoginManager.cs
-  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f82ae3778e49718e8384d64beb758904') in 0.000381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.305 seconds
-UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
-  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
-  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
-
-(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
-
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.865 seconds
-Domain Reload Profiling: 1168ms
-	BeginReloadAssembly (107ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (181ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (865ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6916.
-Memory consumption went from 211.2 MB to 209.3 MB.
-Total: 3.649500 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.811200 ms  DeleteObjects: 0.315200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd1a4afd9a899b826d76969102449e68 -> 361e40e045db54f6ccaecee6b36daf87
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
-========================================================================
-Received Import Request.
-  Time since last request: 6.971924 seconds.
-  path: Assets/Scripts/Managers/Contents/LoginManager.cs
-  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd9d062b75dfd7a6644c3ef7cc537c0e3') in 0.002805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.299 seconds
-UnityException: FindObjectsOfTypeAll is not allowed to be called during serialization, call it from OnEnable instead. Called from ScriptableObject 'ServicesContainer'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
-  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <37cc348edc804f4cb176b63962c716e7>:0 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.FindProjectWindow () [0x00019] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:30 
-  at Unity.AssetManager.UI.Editor.ProjectWindowProxy.Repaint () [0x00000] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowProxy.cs:19 
-  at Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay.OnAfterDeserialize () [0x0004b] in .\Library\PackageCache\com.unity.asset-manager-for-unity@1.8.0\Editor\UI\ProjectWindowOverlays\ProjectWindowIconOverlay.cs:143 
-
-(Filename: ./Library/PackageCache/com.unity.asset-manager-for-unity@1.8.0/Editor/UI/ProjectWindowOverlays/ProjectWindowProxy.cs Line: 30)
-
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1177ms
-	BeginReloadAssembly (113ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (179ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (880ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
+		SetupLoadedEditorAssemblies (401ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (2.0 MB). Loaded Objects now: 6932.
-Memory consumption went from 211.2 MB to 209.3 MB.
-Total: 3.424900 ms (FindLiveObjects: 0.313900 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.626500 ms  DeleteObjects: 0.324800 ms)
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.9 MB). Loaded Objects now: 6948.
+Memory consumption went from 211.6 MB to 209.7 MB.
+Total: 3.326500 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.109600 ms MarkObjects: 2.607000 ms  DeleteObjects: 0.307800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -849,9 +909,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd1a4afd9a899b826d76969102449e68 -> 361e40e045db54f6ccaecee6b36daf87
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3ef2235e713990e92c15039e4c25a197 -> 361e40e045db54f6ccaecee6b36daf87
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/LoginManager.cs: 4c5a0dff798730b73d549cabe6274d62 -> 3cc846c0f24614c9b07317b57418305e
+========================================================================
+Received Import Request.
+  Time since last request: 10.076208 seconds.
+  path: Assets/Scripts/Managers/Contents/LoginManager.cs
+  artifactKey: Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/Contents/LoginManager.cs using Guid(d82bcfbf7cec17140bcf5972de3d6ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ea65584a0e1fb5dd9939a7d38f58353') in 0.005497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
