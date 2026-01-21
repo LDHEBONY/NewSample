@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Scene\BaseScene.cs" />
     <Compile Include="Assets\Scripts\Controller\CursorController.cs" />
     <Compile Include="Assets\Scripts\Util\Define.cs" />
+    <Compile Include="Assets\Scripts\Managers\Contents\GroundType.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\SceneManagerEx.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\Inven_UI.cs" />
     <Compile Include="Assets\Scripts\TestCollision.cs" />
