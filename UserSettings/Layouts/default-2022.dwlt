@@ -366,7 +366,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a4550000
+      m_SelectedIDs: 2a4f0000
       m_LastClickedID: 0
       m_ExpandedIDs: d0faffff
       m_RenameOverlay:
@@ -748,9 +748,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9171445, y: -0.49141148, z: -2.0871503}
+    m_Target: {x: 4.530062, y: -2.0043528, z: -3.2762585}
     speed: 2
-    m_Value: {x: 2.9171445, y: -0.49141148, z: -2.0871503}
+    m_Value: {x: 4.530062, y: -2.0043528, z: -3.2762585}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -796,13 +796,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15889078, y: -0.12199146, z: 0.019789195, w: -0.9795356}
+    m_Target: {x: -0.2596627, y: -0.031284977, z: 0.008413592, w: -0.9651678}
     speed: 2
-    m_Value: {x: -0.15889001, y: -0.12199087, z: 0.019789098, w: -0.9795308}
+    m_Value: {x: -0.25965968, y: -0.031284615, z: 0.0084134955, w: -0.9651567}
   m_Size:
-    m_Target: 17.949303
+    m_Target: 25.049763
     speed: 2
-    m_Value: 17.949303
+    m_Value: 25.049763
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Managers/Contents
+    - Assets/Scripts/Controller
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1134,15 +1134,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Managers/Contents
+  - Assets/Scripts/Controller
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Documents\GitHub\NewSample
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 220}
-    m_SelectedIDs: 96900000
-    m_LastClickedID: 37014
+    m_SelectedIDs: 92900000
+    m_LastClickedID: 37010
     m_ExpandedIDs: 00000000f67b0000f87b0000fa7b0000fc7b0000fe7b0000007c0000027c0000047c0000067c0000087c00000a7c00000c7c00000e7c0000107c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
