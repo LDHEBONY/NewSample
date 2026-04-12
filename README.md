@@ -1,4 +1,4 @@
-##TOPVIEW 3D RPG GAME MINI
+## TOPVIEW 3D RPG GAME MINI
 -탑뷰 3D 미니 RPG 게임, 인벤토리 활성화, 캐릭터 공격, 몬스터 스폰, 로그인 트리거, 몬스터 AI 구현
 
 ### Playercontroller
