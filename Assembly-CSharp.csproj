@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\UI\PopUp\Button_UI.cs" />
     <Compile Include="Assets\Scripts\Scene\GameScene.cs" />
     <Compile Include="Assets\Scripts\Contents\PlayerStat.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\UI\WojrldSpace\HPBar_UI.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\PrefabTest.cs" />
