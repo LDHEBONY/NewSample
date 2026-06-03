@@ -119,8 +119,10 @@
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\Resources\Art\Necromanser\Stand\Standard_Two_Sided .shader" />
+    <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Resources\Art\Town\Readme FIRST!.txt" />
+    <None Include="Assets\Hovl Studio\Procedural fire\Demo scene\Readme.txt" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_eye_blend.shader" />
   </ItemGroup>
   <ItemGroup>
