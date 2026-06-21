@@ -7,20 +7,44 @@
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\contents\\monsterskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contents\\monsterskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\controller\\playcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\spawnsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\spawnsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\groundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\groundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\controller\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\util\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\util\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\contents\\monsterskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contents\\monsterskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\core\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\util\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\util\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\controller\\playcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\scene\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\ui\\wojrldspace\\monsterstate_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\wojrldspace\\monsterstate_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\spawnsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\spawnsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\scenemanagerex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\core\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\contents\\groundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\contents\\groundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CCFEDF-72E7-46AC-50B4-0220DF4AC21D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\NewSample\\assets\\scripts\\managers\\core\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,24 +110,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MonsterSkillData.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Contents\\MonsterSkillData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Contents\\MonsterSkillData.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Contents\\MonsterSkillData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Contents\\MonsterSkillData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Managers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Managers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Managers.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Managers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Managers.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T17:43:34.375Z",
+              "WhenOpened": "2026-06-21T19:05:44.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonsterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\MonsterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\MonsterController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\MonsterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\MonsterController.cs",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAAAKwBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:45:25.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:35:12.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroundType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T18:27:48.783Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Spawnsite.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:39:24.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayControler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\PlayControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayControler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\PlayControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayControler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABIwNcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:26:33.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\BaseController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\BaseController.cs",
@@ -132,18 +200,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABSAAAAAAAAAA==",
+              "Title": "MonsterSkillData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Contents\\MonsterSkillData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contents\\MonsterSkillData.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Contents\\MonsterSkillData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contents\\MonsterSkillData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:50:18.631Z"
+              "WhenOpened": "2026-05-29T17:43:34.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Define.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Util\\Define.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Util\\Define.cs",
@@ -155,32 +223,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonsterController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\MonsterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\MonsterController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\MonsterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\MonsterController.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAQwI4BAAAkAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\LoginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:45:25.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T18:50:18.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResourceManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T18:48:18.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PoolManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\PoolManager.cs",
@@ -192,7 +247,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T19:23:52.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResourceManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\Core\\ResourceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:48:18.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\InputManager.cs",
@@ -204,19 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GroundType.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\GroundType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T18:27:48.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "GameScene.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Scene\\GameScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene\\GameScene.cs",
@@ -228,31 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayControler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\PlayControler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayControler.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\PlayControler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayControler.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAtwNcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T19:26:33.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Spawnsite.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\Spawnsite.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAUwF4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:39:24.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "MonsterState_UI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\UI\\WojrldSpace\\MonsterState_UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WojrldSpace\\MonsterState_UI.cs",
@@ -264,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "SceneManagerEx.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\SceneManagerEx.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\SceneManagerEx.cs",
@@ -276,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "LogInScene.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Scene\\LogInScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene\\LogInScene.cs",
@@ -288,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\SoundManager.cs",
@@ -300,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Core\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Core\\UIManager.cs",
@@ -312,19 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\Contents\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:35:12.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Inven_UI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\UI\\Scene\\Inven_UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Scene\\Inven_UI.cs",
@@ -336,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CursorController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Controller\\CursorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\CursorController.cs",
@@ -348,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "PopUp_UI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\UI\\PopUp\\PopUp_UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PopUp\\PopUp_UI.cs",
@@ -360,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Scene_UI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\UI\\Scene\\Scene_UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Scene\\Scene_UI.cs",
@@ -372,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Poolable.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\NewSample\\Assets\\Scripts\\Managers\\Poolable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Poolable.cs",
